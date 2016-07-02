@@ -1,0 +1,48 @@
+img{
+	position: relative;
+	bottom: -306px;
+	left: 8px;
+	bottom: 2px;
+	top: 315px;
+}
+#date{
+	position: absolute;
+	left: 50%;
+	top: 500px;
+}
+#scoreboard{
+	font-size:40px;
+	position: relative;
+	left: 50%;
+}
+#scoreboard>div{
+	float:left;
+}
+input{
+	width: 25px;
+	height: 25px;
+}
+#first{
+	position: absolute;
+	top: 180px;
+	display:none;
+}
+#first1{
+	position: absolute;
+	top: 180px;
+}
+#second{
+	position: absolute;
+	top: 214px;
+	display:none;
+}
+#second1{
+	position: absolute;
+	top: 214px;
+}
+#canvas1, #canvas2{
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	left: 0;
+}
